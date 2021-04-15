@@ -24,7 +24,7 @@ const existeID = async (id) => {
     const existeID = await Usuario.findById(id); 
 
     if(!existeID){
-       throw new Error ('El id no existe');
+       throw new Error ('El ID no existe');
     }
 }
 
